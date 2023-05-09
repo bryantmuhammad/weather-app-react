@@ -1,0 +1,30 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box img {
+    width: 60%;
+}
+
+.temperature {
+    position: relative;
+    color: #06283D;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-left: -16px;
+}
+
+.temperature span {
+    position: absolute;
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+
+.box .weather {
+    color: #06283D;
+    font-weight: 600;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,14 @@
+.card { 
+    background-color: #fff;
+    width: 400px;
+    height: 70px;
+    /* height: 605px; */
+    border-radius: 18px;
+    padding: 28px 32px;
+    overflow: hidden;
+    transition: 0.6s ease-out;
+}
+
+.card.is_active {
+    height: 605px;
+}
